@@ -10,9 +10,10 @@ import About from "./About";
 import Tech from "./Tech";
 import Experience from "./Experience";
 import Works from "./Works";
-
+import Veille from "./Veille";
+import Stages from "./Stages";
 import Contact from "./Contact";
-import EpreuveE4 from "./EpreuveE4";
+import Epreuves from "./Epreuves";
 
 export {
   Hero,
@@ -22,7 +23,9 @@ export {
   Experience,
   Works,
   Contact,
-  EpreuveE4,
+  Veille,
+  Stages,
+  Epreuves,
   EarthCanvas,
   BallCanvas,
   ComputersCanvas,

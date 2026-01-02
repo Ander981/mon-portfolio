@@ -36,8 +36,16 @@ export const navLinks = [
     title: "EXpérience",
   },
   {
-    id: "epreuveE4",
-    title: "EpreuveE4",
+    id: "Epreuves",
+    title: "Epreuves",
+  },
+    {
+    id: "Veille",
+    title: "Veille",
+  },
+    {
+    id: "Stages",
+    title: "Stages",
   },
   {
     id: "contact",
@@ -76,6 +84,10 @@ const technologies = [
   {
     name: "PHP",
     icon: php,
+  },
+    {
+    name: "JavaScript",
+    icon: javascript,
   },
  
 ];
@@ -146,6 +158,19 @@ const experiences = [
       "Je n'ai pas encore codé en C++, mais j'ai étudié ses similarités et différences avec Java, ce qui me donnera une base pour débuter. Grâce à mes connaissances en programmation, je suis déjà familier avec certains concepts du C++ comme la programmation orientée objet et la gestion de la mémoire, bien que je n'aie pas encore commencé à pratiquer ce langage..",
 
       "Je suis sur le point de débuter mon apprentissage du C++ et dispose déjà d'une compréhension théorique des pointeurs, des classes et de l'héritage. Actuellement en préparation pour apprendre le C++, j'ai acquis des bases conceptuelles qui me permettront d'aborder ce langage avec plus d'aisance.",
+    ],
+  },
+  {
+    title: "JavaScript",
+    icon: javascript,
+    iconBg: "#383E56",
+    date: " 2025",
+    points: [
+      "J'ai acquis des bases en JavaScript pour rendre mes pages web interactives. J'ai appris à manipuler les éléments HTML et à réagir aux actions des utilisateurs comme les clics, les survols et les soumissions de formulaires.",
+
+      "J'ai une connaissance des concepts fondamentaux de JavaScript tels que les variables, les fonctions, les conditions (if/else), les boucles (for, while), les événements, et la manipulation du DOM. J'ai également appris à afficher des messages, à modifier le contenu des pages et à créer des interactions simples.",
+
+      "J'ai une compréhension de base des méthodes JavaScript courantes comme addEventListener, innerHTML, et des concepts comme les tableaux et les objets, qui facilitent la création de fonctionnalités dynamiques sur mes sites web.",
     ],
   },
 ];
