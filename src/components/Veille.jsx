@@ -99,7 +99,7 @@ const Veille = () => {
     className="flex justify-center items-center flex-1"
   >
     <img
-      src="/public/VeilleTech.jpg"
+      src="/VeilleTech.jpg"
       alt="Illustration de la veille technologique"
       className="w-full h-auto max-w-md rounded-lg shadow-lg"
     />

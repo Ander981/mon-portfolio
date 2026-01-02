@@ -115,7 +115,7 @@ const Epreuves = () => {
     className="flex justify-center items-center flex-1"
   >
     <img
-      src="/public/Epreuve.jpg"
+      src="/Epreuve.jpg"
       alt="Illustration des épreuves"
       className="w-full h-auto max-w-md rounded-lg shadow-lg"
     />

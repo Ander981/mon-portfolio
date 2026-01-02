@@ -38,7 +38,7 @@ const Stages = () => {
     className="flex justify-center items-center flex-1"
   >
     <img
-      src="/public/Entreprises.png"
+      src="/Entreprises.png"
       alt="Illustration des entreprises"
       className="w-full h-auto max-w-md rounded-lg shadow-lg"
     />
