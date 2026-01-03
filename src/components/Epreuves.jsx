@@ -48,13 +48,13 @@ const Epreuves = () => {
 
           <ul className="list-disc list-inside space-y-2">
             <li>
-              <strong>E1 – Culture et communication :</strong>  
+              <strong>E1 – Culture et communication : </strong>  
               Épreuve écrite de 4 heures évaluant les capacités d’expression
               écrite, d’analyse de documents et de communication professionnelle.
             </li>
 
             <li>
-              <strong>E2 – Mathématiques pour l’informatique :</strong>  
+              <strong>E2 – Mathématiques pour l’informatique : </strong>  
               Épreuve écrite de 2 heures portant sur les outils mathématiques
               indispensables à l’informatique (logique, algorithmes,
               probabilités).
@@ -63,8 +63,7 @@ const Epreuves = () => {
             <li>
               <strong>
                 E3 – Culture économique, juridique et managériale pour
-                l’informatique :
-              </strong>  
+                l’informatique : </strong>  
               Épreuve écrite de 4 heures visant à analyser le fonctionnement des
               organisations et leur environnement économique, juridique et
               managérial.
@@ -72,8 +71,7 @@ const Epreuves = () => {
 
             <li>
               <strong>
-                E4 – Support et mise à disposition de services informatiques :
-              </strong>  
+                E4 – Support et mise à disposition de services informatiques : </strong>  
               Épreuve orale de 40 minutes basée sur des situations
               professionnelles réelles, évaluant la capacité à fournir,
               maintenir et documenter des services informatiques.
@@ -82,8 +80,7 @@ const Epreuves = () => {
             <li>
               <strong>
                 E5 – Conception et développement d’applications :
-              </strong>  
-              Épreuve pratique et orale comprenant 1h30 de préparation suivie
+              </strong> Épreuve pratique et orale comprenant 1h30 de préparation suivie
               d’un oral de 40 minutes. Elle mesure les compétences en analyse,
               conception, développement et maintenance d’applications.
             </li>
@@ -91,8 +88,7 @@ const Epreuves = () => {
             <li>
               <strong>
                 E6 – Cybersécurité des services informatiques :
-              </strong>  
-              Épreuve sous forme d’une étude de cas écrite de 4 heures (modalités
+              </strong> Épreuve sous forme d’une étude de cas écrite de 4 heures (modalités
               variables selon les académies), portant sur la sécurisation des
               systèmes, des réseaux et des données.
             </li>
