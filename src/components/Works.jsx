@@ -135,11 +135,14 @@ const Works = () => {
 </motion.a>
       </div>
 <<<<<<< HEAD
+<<<<<<< HEAD
       <br />
       <div>
       <motion.a 
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 8cf1eaa
 
     <br />
     
@@ -151,7 +154,10 @@ const Works = () => {
       <div>
       <motion.a 
 >>>>>>> 0a9f707 (Correction: des images et Ajout des projets)
+<<<<<<< HEAD
 >>>>>>> 8cf1eaa (Correction: des images et Ajout des projets)
+=======
+>>>>>>> 8cf1eaa
   href="https://scanner-de-codes-barres.vercel.app/"
   target="_blank"
   rel="noopener noreferrer"
@@ -188,19 +194,26 @@ const Works = () => {
       strokeLinejoin="round" 
       strokeWidth={2} 
 <<<<<<< HEAD
+<<<<<<< HEAD
       d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" 
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 8cf1eaa
       d="M13 7h8m0 0v8m0-8L10 18M5 5h5a2 2 0 012 2v12a2 2 0 01-2 2H5a2 2 0 01-2-2V7a2 2 0 012-2z"
 =======
       d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" 
 >>>>>>> 0a9f707 (Correction: des images et Ajout des projets)
+<<<<<<< HEAD
 >>>>>>> 8cf1eaa (Correction: des images et Ajout des projets)
+=======
+>>>>>>> 8cf1eaa
     />
   </motion.svg>
 
   <span className="text-lg tracking-wide">
     Voir le projet – Scanner de codes-barres
+<<<<<<< HEAD
 <<<<<<< HEAD
  
 =======
@@ -253,6 +266,11 @@ const Works = () => {
 
 <<<<<<< HEAD
 =======
+=======
+  </span>
+</motion.a>
+
+>>>>>>> 8cf1eaa
       </div>
 =======
  
@@ -301,7 +319,10 @@ const Works = () => {
     />
   </motion.svg>
 
+<<<<<<< HEAD
 >>>>>>> 8cf1eaa (Correction: des images et Ajout des projets)
+=======
+>>>>>>> 8cf1eaa
   <span className="text-lg tracking-wide">
     Voir le projet – Gestion de bibliothèque
  
@@ -309,10 +330,15 @@ const Works = () => {
 </motion.a>
 </div>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 0a9f707 (Correction: des images et Ajout des projets)
 >>>>>>> 8cf1eaa (Correction: des images et Ajout des projets)
+=======
+>>>>>>> 0a9f707 (Correction: des images et Ajout des projets)
+>>>>>>> 8cf1eaa
     </>
+    
   );
 };
 
