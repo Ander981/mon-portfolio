@@ -32,6 +32,49 @@ const Stages = () => {
     Vous trouverez ci-dessous les rapports de stage correspondants, disponibles en téléchargement, présentant de manière détaillée les missions réalisées, les compétences mobilisées ainsi que les résultats obtenus au cours de chacune de ces périodes en milieu professionnel.
     <br />
     <br />
+  <div>
+    <motion.a 
+    href="RAPPORT DE STAGE DE BTS SIO 2.pdf" 
+    download
+    initial={{ opacity: 0, y: 20 }}
+    animate={{ opacity: 1, y: 0 }}
+    transition={{ duration: 0.5, delay: 0.3 }}
+    whileHover={{ 
+      scale: 1.05,
+      rotateY: 5,
+      rotateX: 5,
+      transition: { duration: 0.3 }
+    }}
+    whileTap={{ scale: 0.95 }}
+    className="inline-flex items-center gap-3 px-10 py-4 bg-gradient-to-r from-purple-600 via-violet-600 to-indigo-600 text-white font-bold rounded-xl shadow-2xl hover:shadow-purple-500/50 transition-all duration-300 border border-purple-400/30 backdrop-blur-sm"
+    style={{
+      transformStyle: "preserve-3d",
+      perspective: "1000px"
+    }}
+  >
+    <motion.svg 
+      className="w-6 h-6" 
+      fill="none" 
+      stroke="currentColor" 
+      viewBox="0 0 24 24"
+      animate={{ y: [0, -3, 0] }}
+      transition={{ 
+        repeat: Infinity, 
+        duration: 1.5,
+        ease: "easeInOut"
+      }}
+    >
+      <path 
+        strokeLinecap="round" 
+        strokeLinejoin="round" 
+        strokeWidth={2} 
+        d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" 
+      />
+    </motion.svg>
+    <span className="text-lg tracking-wide">Télécharger mon rapport de stage de 2ème année </span>
+  </motion.a>
+  </div>
+  <br />
      <div>
     <motion.a 
     href="/RAPPORT_DE_STAGE_Anderson-MICHEL^L@.pdf" 
@@ -77,12 +120,13 @@ const Stages = () => {
 
   </motion.p>
 
+
   <motion.div
     variants={fadeIn("up", "spring", 0.5, 1)}
     className="flex justify-center items-center flex-1"
   >
     <img
-      src="/Entreprises.png"
+      src="/Entreprises.jpeg"
       alt="Illustration des entreprises"
       className="w-full h-auto max-w-md rounded-lg shadow-lg"
     />
