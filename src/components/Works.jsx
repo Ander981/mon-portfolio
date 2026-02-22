@@ -134,6 +134,102 @@ const Works = () => {
   <span className="text-lg tracking-wide">Télécharger mon CV</span>
 </motion.a>
       </div>
+      <br />
+      <div>
+      <motion.a 
+  href="https://scanner-de-codes-barres.vercel.app/"
+  target="_blank"
+  rel="noopener noreferrer"
+  initial={{ opacity: 0, y: 20 }}
+  animate={{ opacity: 1, y: 0 }}
+  transition={{ duration: 0.5, delay: 0.3 }}
+  whileHover={{ 
+    scale: 1.05,
+    rotateY: 5,
+    rotateX: 5,
+    transition: { duration: 0.3 }
+  }}
+  whileTap={{ scale: 0.95 }}
+  className="inline-flex items-center gap-3 px-10 py-4 bg-gradient-to-r from-purple-600 via-violet-600 to-indigo-600 text-white font-bold rounded-xl shadow-2xl hover:shadow-purple-500/50 transition-all duration-300 border border-purple-400/30 backdrop-blur-sm"
+  style={{
+    transformStyle: "preserve-3d",
+    perspective: "1000px"
+  }}
+>
+  <motion.svg 
+    className="w-6 h-6" 
+    fill="none" 
+    stroke="currentColor" 
+    viewBox="0 0 24 24"
+    animate={{ y: [0, -3, 0] }}
+    transition={{ 
+      repeat: Infinity, 
+      duration: 1.5,
+      ease: "easeInOut"
+    }}
+  >
+    <path 
+      strokeLinecap="round" 
+      strokeLinejoin="round" 
+      strokeWidth={2} 
+      d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" 
+    />
+  </motion.svg>
+
+  <span className="text-lg tracking-wide">
+    Voir le projet – Scanner de codes-barres
+ 
+  </span>
+</motion.a>
+</div>
+<br />
+    <div>
+      <motion.a 
+  href="https://gestion-bibliotheque-two.vercel.app/"
+  target="_blank"
+  rel="noopener noreferrer"
+  initial={{ opacity: 0, y: 20 }}
+  animate={{ opacity: 1, y: 0 }}
+  transition={{ duration: 0.5, delay: 0.3 }}
+  whileHover={{ 
+    scale: 1.05,
+    rotateY: 5,
+    rotateX: 5,
+    transition: { duration: 0.3 }
+  }}
+  whileTap={{ scale: 0.95 }}
+  className="inline-flex items-center gap-3 px-10 py-4 bg-gradient-to-r from-purple-600 via-violet-600 to-indigo-600 text-white font-bold rounded-xl shadow-2xl hover:shadow-purple-500/50 transition-all duration-300 border border-purple-400/30 backdrop-blur-sm"
+  style={{
+    transformStyle: "preserve-3d",
+    perspective: "1000px"
+  }}
+>
+  <motion.svg 
+    className="w-6 h-6" 
+    fill="none" 
+    stroke="currentColor" 
+    viewBox="0 0 24 24"
+    animate={{ y: [0, -3, 0] }}
+    transition={{ 
+      repeat: Infinity, 
+      duration: 1.5,
+      ease: "easeInOut"
+    }}
+  >
+    <path 
+      strokeLinecap="round" 
+      strokeLinejoin="round" 
+      strokeWidth={2} 
+      d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" 
+    />
+  </motion.svg>
+
+  <span className="text-lg tracking-wide">
+    Voir le projet – Gestion de bibliothèque
+ 
+  </span>
+</motion.a>
+</div>
     </>
   );
 };

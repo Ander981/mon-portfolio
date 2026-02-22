@@ -101,9 +101,6 @@ const Epreuves = () => {
             orientée vers les réalités du métier de développeur et de
             professionnel de l’informatique.
           </p>
-        
-
-    
   </motion.p>
 
   <motion.div
