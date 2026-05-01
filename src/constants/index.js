@@ -23,8 +23,9 @@ import cocacola from "../assets/cocacola.png";
 import javaPng from "../assets/java.png";
 import cPng from "../assets/c.png";
 import java from "../assets/java.svg";
-import c from "../assets/c.svg";
+import docker from "../assets/docker.svg";
 import php from "../assets/php.png";
+
 
 export const navLinks = [
   {
@@ -78,8 +79,8 @@ const technologies = [
     icon: java,
   },
   {
-    name: "C++",
-    icon: c,
+    name: "Docker",
+    icon: docker,
   },
   {
     name: "PHP",
@@ -148,23 +149,23 @@ const experiences = [
     ],
   },
   {
-    title: "C++",
-    icon: cPng,
+    title: "Docker",
+    icon: docker,
     iconBg: "#E6DEDD",
-    date: "2025",
+    date: "2026",
     points: [
-      "Je prévois de commencer à apprendre le C++ prochainement et j'ai déjà acquis des connaissances théoriques sur ce langage. Bien que je n'aie pas encore commencé la pratique du C++, je me suis familiarisé avec ses concepts fondamentaux à travers mes lectures. Le C++ est le prochain langage que je compte explorer dans mon parcours d'apprentissage et j'ai déjà une compréhension de base de sa structure.",
+      "Je prévois de continuer à approfondir mon utilisation de Docker et j'ai déjà commencé à l’utiliser en 2026 en cours de de ma formation. Bien que je sois encore en phase d’apprentissage, je me suis familiarisé avec les concepts de base comme les conteneurs, les images et la gestion des environnements. Docker est un outil que je compte intégrer pleinement dans mon parcours pour améliorer la gestion et le déploiement de mes applications.",
 
-      "Je n'ai pas encore codé en C++, mais j'ai étudié ses similarités et différences avec Java, ce qui me donnera une base pour débuter. Grâce à mes connaissances en programmation, je suis déjà familier avec certains concepts du C++ comme la programmation orientée objet et la gestion de la mémoire, bien que je n'aie pas encore commencé à pratiquer ce langage..",
+      "J’ai déjà commencé à utiliser Docker dans un contexte pratique, ce qui m’a permis de comprendre son fonctionnement général ainsi que ses avantages par rapport à une installation classique. Je me suis notamment intéressé à la création d’images et à l’exécution de conteneurs, tout en découvrant les différences avec un environnement local traditionnel. Ces premières expériences me donnent une base solide pour progresser davantage.",
 
-      "Je suis sur le point de débuter mon apprentissage du C++ et dispose déjà d'une compréhension théorique des pointeurs, des classes et de l'héritage. Actuellement en préparation pour apprendre le C++, j'ai acquis des bases conceptuelles qui me permettront d'aborder ce langage avec plus d'aisance.",
+      "Je suis actuellement en train de développer mes compétences sur Docker et j’ai acquis une première compréhension de concepts essentiels comme les volumes, les réseaux et la conteneurisation. En poursuivant ma pratique, je souhaite devenir plus autonome dans la configuration d’environnements de développement et de déploiement grâce à Docker.",
     ],
   },
   {
     title: "JavaScript",
     icon: javascript,
     iconBg: "#383E56",
-    date: " 2025",
+    date: " 2026",
     points: [
       "J'ai acquis des bases en JavaScript pour rendre mes pages web interactives. J'ai appris à manipuler les éléments HTML et à réagir aux actions des utilisateurs comme les clics, les survols et les soumissions de formulaires.",
 
