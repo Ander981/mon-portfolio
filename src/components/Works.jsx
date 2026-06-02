@@ -187,7 +187,7 @@ const Works = () => {
 
   <div>
     <motion.a 
-      href="https://gestion-bibliotheque-two.vercel.app/"
+      href="https://gestion-bibliothequ-two.vercel.app/"
       target="_blank"
       rel="noopener noreferrer"
       initial={{ opacity: 0, y: 20 }}
