@@ -94,7 +94,7 @@ const Works = () => {
         ))}
 
 <motion.a 
-  href="/Michel_Anderson_resume_pdf (3).pdf" 
+  href="/Curriculum_Vitae_Anderson_MICHEL-_.pdf" 
   download
   initial={{ opacity: 0, y: 20 }}
   animate={{ opacity: 1, y: 0 }}
